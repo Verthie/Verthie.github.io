@@ -9,18 +9,13 @@ menu {
 
 .oval {
     display: block;
-    width: 150px;
-    height: 20px;
+    height: 50px;
     background: #ffffff;
-    border-radius: 50px;
     border-color: #000000;
     border:  solid;
     border-width: 1px;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 0px;
 }
 
 
@@ -34,10 +29,9 @@ menu {
 
 .links {
     background-color: #ffffff;
-    background-image: linear-gradient(to bottom, #0003, transparent);
     border-bottom: 1px solid #0003;
-    box-shadow: 0 0 32px #0003;
     font-weight: 300;
+    margin-left: 150px;
 }
 .links > a {
     color: #9ab;
@@ -49,17 +43,19 @@ menu {
     background: #ffffff06;
     color: #adf;
 }
+/*
 .links > .line {
     background: #68a;
     height: 1px;
     pointer-events: none;
-}
+} */
 
 .links {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(var(--items), 1fr);
     position: relative;
 }
+/*
 .links > .line {
     opacity: 0;
     transition: all .5s;
@@ -83,4 +79,33 @@ menu {
 .links > a:nth-of-type(8):hover ~ .line { --index: 8; }
 .links > a:nth-of-type(9):hover ~ .line { --index: 9; }
 .links > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.links > a:last-of-type:hover ~ .line { --index: var(--items); }
+.links > a:last-of-type:hover ~ .line { --index: var(--items); } */
+
+.topline{
+    height: 25px;
+    background-color: #1c1e26;
+}
+
+.textcard {
+    height: 25px;
+    float:  right;
+}
+
+.header_2 {
+    margin:  0px;
+    padding: 0px;
+    border-color: #000000;
+    border-width: 5px;
+    border: solid;
+    display: block;
+}
+
+.card_main {
+    align-self: middle;
+    border: solid;
+    border-width: 4px;
+    height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
