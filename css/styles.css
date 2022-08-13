@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+}
+
+header {
+    white-space: nowrap;
+}
+
+.topline {
+    height: 25px;
+    background-color: #1c1e26;
+}
+
+.info {
+    min-width: 675px;
+    margin: 0 27em;
+    padding: 0.2em 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info span {
+    color: #f7f7f7;
+}
+
+.navbar {
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 27em;
+    min-width: 660px;
+    /*border: solid 2px blue;*/
+}
+
+#logo {
+    padding: 1.1em 0 0 0;
+}
+
+.navbar ul, li {
+    display: inline;
+}
+
+.navbar ul {
+    padding: 0;
+    display: flex;
+    flex: 1;
+    max-width: 85%;
+    min-width: 550px;
+    justify-content: space-between;
+    /*border: solid 2px green;*/
+}
+
+.navbar .icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#bgimage {
+    height: 400px;
+    background-color: aqua;
+    background-image: url("https://www.polska.travel/images/pl-PL/glowne-miasta/krakow/krakow_sukiennice_noca_1170.jpg");
+    background-size: cover;
+    background-position: 0 15%;
+    margin: 0 auto;
+    /*border: solid 2px red"*/
+}
+
+#bgimage div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bgimage h1 {
+    margin: 3em 0 0 0;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    margin: 2em 10em;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.header_2 {
+    margin: 0px;
+    padding: 0px;
+    border-color: #000000;
+    border-width: 5px;
+    border: solid;
+    display: block;
+}
+
+.card_main {
+    align-self: middle;
+    border: solid;
+    border-width: 4px;
+    height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+
+nav a {
+    display: block;
+    height: 50px;
+    background: #ffffff;
+    border-color: #000000;
+    border: solid;
+    border-width: 1px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+
+.links {
+    background-color: #ffffff;
+    border-bottom: 1px solid #0003;
+    font-weight: 300;
+    margin-left: 150px;
+}
+
+.links>a {
+    color: #9ab;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.links>a:hover {
+    background: #ffffff06;
+    color: #adf;
+}
+
+/*
+.links > .line {
+    background: #68a;
+    height: 1px;
+    pointer-events: none;
+} */
+
+/*
+.links {
+    display: inline-grid;
+    grid-template-columns: repeat(var(--items), 1fr);
+    position: relative;
+}
+
+/*
+.links > .line {
+    opacity: 0;
+    transition: all .5s;
+    position: absolute;
+    bottom: 0;
+    left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
+    width: var(--width, calc(100% / var(--items)));
+    --index: 0;
+}
+.links > a:hover ~ .line {
+    opacity: 1;
+}
+
+.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
+.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
+.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
+.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
+.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
+.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
+.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
+.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
+.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
+.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
+.links > a:last-of-type:hover ~ .line { --index: var(--items); } */
