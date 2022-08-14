@@ -9,13 +9,14 @@ body {
     margin: 0;
 }
 
+/*Top*/
 header {
-    white-space: nowrap;
+    font-size: 15px;
 }
 
 .topline {
     font-family: 'Montserrat', sans-serif;
-    height: 25px;
+    height: 1.6em;
     background-color: #1c1e26;
 }
 
@@ -31,6 +32,7 @@ header {
     color: #f7f7f7;
 }
 
+/*Navbar*/
 .navbar {
     font-size: 1em;
     display: flex;
@@ -70,7 +72,6 @@ header {
 .navbar a {
     font-weight: 400;
     color: #9ab;
-    text-align: center;
     text-decoration: none;
     transition: color .2s;
 }
@@ -79,7 +80,7 @@ header {
     color: #adf;
 }
 
-
+/*Image*/
 #bgimage {
     height: 400px;
     /*background-color: aqua;*/
@@ -103,21 +104,52 @@ header {
     color: white;
 }
 
+/*Content*/
 main {
     font-family: 'Poppins', sans-serif;
-    margin: 2em 10em;
+    margin: 2em 17em;
     font-size: 20px;
 }
 
+main h2 {
+    text-align: center;
+    margin: 0;
+}
 
+.content {
+    margin: 2em, 0;
+    padding: 2em, 0;
+}
 
+.text-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    /*border: solid 2px red;*/
+}
 
+.text-content p {
+    margin: 0;
+}
 
+.text-content-inv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 2em;
+}
 
+.text-content-inv p {
+    margin: 0;
+}
 
+.text-content img {
+    min-width: 20%;
+}
 
-
-
+.text-content-inv img {
+    min-width: 20%;
+}
 
 /*
 .header_2 {
