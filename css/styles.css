@@ -1,4 +1,11 @@
 body {
+    font-family: 'Poppins', sans-serif;
+    /* Fonts:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    */
     margin: 0;
 }
 
@@ -7,6 +14,7 @@ header {
 }
 
 .topline {
+    font-family: 'Montserrat', sans-serif;
     height: 25px;
     background-color: #1c1e26;
 }
@@ -33,7 +41,9 @@ header {
 }
 
 #logo {
-    padding: 1.1em 0 0 0;
+    padding: 0.5em 0 0 0;
+    width: 7em;
+    height: 2em;
 }
 
 .navbar ul, li {
@@ -57,31 +67,44 @@ header {
     margin-right: 5px;
 }
 
+.navbar a {
+    font-weight: 400;
+    color: #9ab;
+    text-align: center;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.navbar a:hover {
+    color: #adf;
+}
+
+
 #bgimage {
     height: 400px;
-    background-color: aqua;
-    background-image: url("https://www.polska.travel/images/pl-PL/glowne-miasta/krakow/krakow_sukiennice_noca_1170.jpg");
+    /*background-color: aqua;*/
+    background:
+        linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+        url("https://www.polska.travel/images/pl-PL/glowne-miasta/krakow/krakow_sukiennice_noca_1170.jpg");
     background-size: cover;
     background-position: 0 15%;
     margin: 0 auto;
-    /*border: solid 2px red"*/
-}
-
-#bgimage div {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    /*border: solid 2px red;*/
 }
 
 #bgimage h1 {
-    margin: 3em 0 0 0;
-    padding: 0;
-    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 3em;
     color: white;
 }
 
 main {
+    font-family: 'Poppins', sans-serif;
     margin: 2em 10em;
     font-size: 20px;
 }
@@ -144,17 +167,7 @@ nav a {
     margin-left: 150px;
 }
 
-.links>a {
-    color: #9ab;
-    text-align: center;
-    text-decoration: none;
-    transition: all .5s;
-}
 
-.links>a:hover {
-    background: #ffffff06;
-    color: #adf;
-}
 
 /*
 .links > .line {
