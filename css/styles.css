@@ -57,64 +57,23 @@ header {
 }
 
 .info {
-    margin: 0 27em;
+    margin: 0 7em;
     color: #f7f7f7;
     display: flex;
     flex: 1;
-    min-width: 890px;
+    min-width: 375px;
     justify-content: space-between;
-}
-
-/*Navbar*/
-.navbar {
-    font-size: 1em;
-    /* Na czas braku loga nie ma powodu to uzywac
-    justify-content: space-between;
-    */
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex: 1;
 }
 
 /*
-#logo {
-    padding: 0.5em 0 0 0;
-    width: 7em;
-    height: 2em;
+.dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 }
 */
-
-.navbar ul, li {
-    display: inline;
-}
-
-.navbar ul {
-    margin: 1em 27em;
-    padding: 0;
-    display: flex;
-    flex: 1;
-    min-width: 890px;
-    justify-content: space-between;
-}
-
-.navbar .icon {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-.navbar a {
-    font-weight: 400;
-    color: #9ab;
-    text-decoration: none;
-    transition: color .2s;
-}
-
-.navbar a:hover {
-    color: #adf;
-}
 
 /*Image*/
 #bgimage {
@@ -140,61 +99,27 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-#quote {
-    max-height: 116px;
-    min-width: 580px;
-    font-size: 3em;
+.blockquote p {
+    color: rgb(255, 255, 255);
 }
 
-#author {
-    font-size: 1em;
-    margin: 0 2em;
+.blockquote footer {
+    color: rgba(255, 255, 255, 0.8);
 }
 
-/*Content*/
-main {
-    font-family: 'Poppins', sans-serif;
-    margin: 2em 17em;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
 
-main h2 {
-    font-size: 30px;
-    border-bottom: 1px solid #e1f1ff;
-    text-align: center;
-    margin: 0;
-}
+@media screen and (min-width: 1200px) {
+    .dropdown-menu {
+        right: auto;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
 
-.content {
-    min-width: 1000px;
-}
-
-.text-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1em;
-
-}
-
-/*border: solid 2px blue;*/
-/*border: solid 2px green;*/
-/*border: solid 2px red;*/
-
-.text-content-inv {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    margin-top: 1em;
-}
-
-.content img {
-    min-width: 200px;
-    max-width: 220px;
-    min-height: 200px;
-    max-height: 220px;
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
 }
