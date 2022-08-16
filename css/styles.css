@@ -1,3 +1,32 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*border: solid 2px blue;*/
+/*border: solid 2px green;*/
+/*border: solid 2px red;*/
+
 body {
     font-family: 'Poppins', sans-serif;
     /* Fonts:
@@ -11,79 +40,40 @@ body {
 
 /*Top*/
 header {
+    margin: 0;
+    padding: 0;
     font-size: 15px;
 }
 
 .topline {
+    margin: 0;
+    padding: 0.2em 0 0 0;
     font-family: 'Montserrat', sans-serif;
     height: 1.6em;
     background-color: #1c1e26;
+    display: flex;
+    justify-content: center;
+    flex: 1;
 }
 
 .info {
-    min-width: 675px;
-    margin: 0 27em;
-    padding: 0.2em 0 0 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.info span {
+    margin: 0 6em;
     color: #f7f7f7;
-}
-
-/*Navbar*/
-.navbar {
-    font-size: 1em;
-    display: flex;
-    justify-content: space-between;
-    margin: 0.5em auto;
-    min-width: 660px;
-    /*border: solid 2px blue;*/
-}
-
-#logo {
-    justify-self: start;
-    margin-left: 12em;
-    padding: 0.5em 0 0 0;
-    width: 7em;
-    height: 2em;
-}
-
-.navbar ul, li {
-    display: inline;
-}
-
-.navbar ul {
-    margin-left: 18em;
-    margin-right: 17em;
-    padding: 0;
     display: flex;
     flex: 1;
-    max-width: 85%;
-    min-width: 550px;
-    justify-content: flex-end;
-    gap: 2em;
-    /*border: solid 2px green;*/
+    min-width: 375px;
+    justify-content: space-between;
 }
 
-.navbar .icon {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    margin-right: 5px;
+/*
+.dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
 }
-
-.navbar a {
-    font-weight: 400;
-    color: #9ab;
-    text-decoration: none;
-    transition: color .2s;
-}
-
-.navbar a:hover {
-    color: #adf;
-}
+*/
 
 /*Image*/
 #bgimage {
@@ -94,162 +84,76 @@ header {
         url("https://www.polska.travel/images/pl-PL/glowne-miasta/krakow/krakow_sukiennice_noca_1170.jpg");
     background-size: cover;
     background-position: 0 15%;
-    margin: 0 auto;
+    margin: 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*border: solid 2px red;*/
 }
 
-#bgimage h1 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-size: 3em;
+#bgimage>div {
+    margin: 0 19.5em;
     color: white;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*Content*/
-main {
-    font-family: 'Poppins', sans-serif;
-    margin: 2em 17em;
-    font-size: 20px;
+.blockquote p {
+    color: rgb(255, 255, 255);
 }
 
-main h2 {
-    text-align: center;
-    margin: 0;
+.blockquote footer {
+    color: rgba(255, 255, 255, 0.493);
 }
 
-.content {
-    margin: 2em, 0;
-    padding: 2em, 0;
+.nav-link.active {
+    color: rgba(57, 136, 74, 0.527) !important;
+    transition: color .2s;
 }
 
-.text-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-    /*border: solid 2px red;*/
+.nav-link.active:hover {
+    color: rgba(17, 61, 27, 0.527) !important;
 }
 
-.text-content p {
-    margin: 0;
+.bi-facebook {
+    font-size: 2rem;
+    color: black;
+    transition: color .2s;
 }
 
-.text-content-inv {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    margin-top: 2em;
+.bi-facebook:hover {
+    color: rgba(57, 136, 74, 0.527);
 }
 
-.text-content-inv p {
-    margin: 0;
-}
-
-.text-content img {
-    min-width: 20%;
-}
-
-.text-content-inv img {
-    min-width: 20%;
+@media screen and (max-width: 1199px) {
+    #navbarSupportedContent>a {
+        margin-left: 1em;
+    }
 }
 
 
-.flex-box_1 {
-    display: flex;
-    flex-flow: row wrap;
+@media screen and (min-width: 1200px) {
+    .navbar-brand {
+        margin-right: 2em;
+    }
+
+    .dropdown-menu {
+        right: auto;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+
+    #navbarSupportedContent>a {
+        margin-left: 4em;
+    }
+
+    .navbar-nav {
+        margin: 0 1em;
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
 }
-
-
-
-/*
-.header_2 {
-    margin: 0px;
-    padding: 0px;
-    border-color: #000000;
-    border-width: 5px;
-    border: solid;
-    display: block;
-}
-
-.card_main {
-    align-self: middle;
-    border: solid;
-    border-width: 4px;
-    height: 200px;
-    width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-menu {
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-
-
-nav a {
-    display: block;
-    height: 50px;
-    background: #ffffff;
-    border-color: #000000;
-    border: solid;
-    border-width: 1px;
-    text-align: center;
-    margin: 0px;
-}
-
-
-
-
-.links {
-    background-color: #ffffff;
-    border-bottom: 1px solid #0003;
-    font-weight: 300;
-    margin-left: 150px;
-}
-
-
-
-/*
-.links > .line {
-    background: #68a;
-    height: 1px;
-    pointer-events: none;
-} */
-
-/*
-.links {
-    display: inline-grid;
-    grid-template-columns: repeat(var(--items), 1fr);
-    position: relative;
-}
-
-/*
-.links > .line {
-    opacity: 0;
-    transition: all .5s;
-    position: absolute;
-    bottom: 0;
-    left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-    width: var(--width, calc(100% / var(--items)));
-    --index: 0;
-}
-.links > a:hover ~ .line {
-    opacity: 1;
-}
-
-.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
-.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
-.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
-.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
-.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
-.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
-.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
-.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
-.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
-.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.links > a:last-of-type:hover ~ .line { --index: var(--items); } */
