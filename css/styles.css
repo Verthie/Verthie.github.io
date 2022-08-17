@@ -214,6 +214,10 @@ main h2 {
     color: rgb(5, 182, 40);
 }
 
+footer .row {
+    margin-right: 0;
+}
+
 @media screen and (max-width: 384px) {
 
     .topline {
