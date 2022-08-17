@@ -75,10 +75,12 @@ header {
     height: 400px;
     /*background-color: aqua;*/
     background:
-        linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
-        url("https://www.polska.travel/images/pl-PL/glowne-miasta/krakow/krakow_sukiennice_noca_1170.jpg");
+        url("../images/KrakowWawelnoca.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 15%;
+    background-position: 0 85%;
     margin: 0 0;
     display: flex;
     flex-direction: column;
@@ -95,6 +97,7 @@ header {
 }
 
 .blockquote p {
+    font-size: 2em;
     color: rgb(255, 255, 255);
 }
 
@@ -138,12 +141,48 @@ main h2 {
 }
 
 .pimage {
+    width: 100%;
     height: auto;
     /*background-color: aqua;*/
-    background: url("https://avatarfiles.alphacoders.com/968/thumb-96848.png");
     background-size: cover;
-    /*background-position: 0 15%;*/
     margin: 0;
+}
+
+.primage {
+    width: 100%;
+    /*background-color: aqua;*/
+    background-size: cover;
+    height: 12em;
+}
+
+#img1 {
+    background: url("../images/Types-of-Meetings.png");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+}
+
+#img2 {
+    background: url("../images/GlobeVector.jpg");
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+}
+
+#img3 {
+    background: url("../images/excellence.jpg");
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+
+#img4 {
+    background: url("../images/accredation.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#img5 {
+    background: url("../images/europeunion.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 #list-values {
@@ -175,23 +214,147 @@ main h2 {
     color: rgb(5, 182, 40);
 }
 
-.ab-pharagraphs {
-    font-size: 1.2em;
-}
+@media screen and (max-width: 384px) {
 
-@media screen and (max-width: 830px) {
+    .topline {
+        display: none;
+    }
+
     #list-values {
-        font-size: 1.5em;
+        font-size: 1em;
         margin-top: 0em;
     }
+
+    .primage {
+        height: 9em;
+    }
+
+    .aboutus {
+        font-size: 0.5em;
+        margin: 0 6em;
+    }
+
+    #img1 {
+        background-position: 50% 20%;
+    }
+
+    #img5 {
+        background-size: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 385px) and (max-width: 469px) {
+
+    #list-values {
+        font-size: 1.1em;
+        margin-top: 0em;
+    }
+
+    .primage {
+        height: 9em;
+    }
+
+    .aboutus {
+        font-size: 0.7em;
+        margin: 0 5em;
+    }
+
+    #img5 {
+        background-size: 100%;
+    }
+
+}
+
+@media screen and (min-width: 470px) and (max-width: 560px) {
+
+    #list-values {
+        font-size: 1.3em;
+        margin-top: 0em;
+    }
+
+    .primage {
+        height: 9em;
+    }
+
+    .aboutus {
+        font-size: 0.8em;
+        margin: 0 7em;
+    }
+
+    #img5 {
+        background-size: 100%;
+    }
+
+}
+
+@media screen and (min-width: 561px) and (max-width: 793px) {
+
+    #list-values {
+        font-size: 1.3em;
+        margin-top: 0em;
+    }
+
+    .primage {
+        height: 9em;
+    }
+
+    .aboutus {
+        font-size: 0.8em;
+        margin: 0 11em;
+    }
+
+    #img5 {
+        background-size: 100%;
+    }
+
+}
+
+@media screen and (min-width: 794px) and (max-width: 900px) {
+    #list-values {
+        font-size: 1.2em;
+        margin-top: 0em;
+    }
+
+    .primage {
+        height: 9em;
+    }
+
+    .aboutus {
+        font-size: 0.8em;
+        margin: 0 19em;
+    }
+
+    #img5 {
+        background-size: 100%;
+    }
+
+}
+
+@media screen and (min-width: 901px) and (max-width: 1199px) {
+
+    .aboutus {
+        font-size: 0.9em;
+        margin: 0 16em;
+    }
+
+    #list-values {
+        font-size: 1.6em;
+        margin-bottom: 2em;
+    }
+
 }
 
 @media screen and (max-width: 1199px) {
     #navbarSupportedContent>a {
         margin-left: 1em;
     }
-}
 
+    .aboutus {
+        text-align: center;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     .navbar-brand {
@@ -216,4 +379,35 @@ main h2 {
         justify-content: space-between;
         flex: 1;
     }
+
+    .leftyboy {
+        padding-left: 0.6em !important;
+    }
+
+    #img1 {
+        background-position: 50% 30%;
+        background-size: 600px;
+    }
+
+    #img2 {
+        background-position: 45% 15%;
+        background-size: 300px;
+    }
+
+    #img3 {
+        background-position: 45% 60%;
+        background-size: 300px;
+    }
+
+    #img4 {
+        background-position: 45% 55%;
+        background-size: 300px;
+    }
+
+    #img5 {
+        background-position: 45% 60%;
+        background-size: 290px;
+    }
+
+
 }

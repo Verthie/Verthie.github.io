@@ -43,7 +43,7 @@ var waypoint3 = new Waypoint({
     handler: function (direction = down) {
         value3.classList.add('animate__animated', 'animate__fadeIn')
     },
-    offset: 700
+    offset: 750
 })
 
 var waypoint4 = new Waypoint({
@@ -51,7 +51,7 @@ var waypoint4 = new Waypoint({
     handler: function (direction = down) {
         value4.classList.add('animate__animated', 'animate__fadeIn')
     },
-    offset: 650
+    offset: 680
 })
 
 var waypoint5 = new Waypoint({
@@ -59,7 +59,7 @@ var waypoint5 = new Waypoint({
     handler: function (direction = down) {
         value5.classList.add('animate__animated', 'animate__fadeIn')
     },
-    offset: 600
+    offset: 650
 })
 
 var waypoint6 = new Waypoint({
@@ -68,7 +68,7 @@ var waypoint6 = new Waypoint({
         aboutusp1.classList.add('animate__animated', 'animate__bounceInRight')
         jQuery("#p_waypoint1").css('opacity', 100);
     },
-    offset: 600
+    offset: 700
 })
 
 var waypoint7 = new Waypoint({
@@ -77,7 +77,7 @@ var waypoint7 = new Waypoint({
         aboutusp2.classList.add('animate__animated', 'animate__bounceInLeft')
         jQuery("#p_waypoint2").css('opacity', 100);
     },
-    offset: 750
+    offset: 800
 })
 
 
