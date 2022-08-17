@@ -75,8 +75,8 @@ header {
     height: 400px;
     /*background-color: aqua;*/
     background:
-        url("../images/KrakowWawelnoca.jpg"),
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("../images/KrakowWawelnoca.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
