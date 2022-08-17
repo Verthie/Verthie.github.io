@@ -155,7 +155,7 @@ header {
 */
 
 /*Image*/
-#bgimage {
+.bgimage {
     height: 400px;
     /*background-color: aqua;*/
     background:
@@ -172,12 +172,28 @@ header {
     align-items: center;
 }
 
-#bgimage>div {
-    margin: 0 19.5em;
-    color: white;
-    text-align: right;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+#rzeszowimg {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("../images/rzeszow-miasto.jpg");
+
+    background-position: 0 30%;
+}
+
+#krakowimg {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("../images/krakow-miasto.jpg");
+
+    background-position: 0 35%;
+}
+
+#lublinimg {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        url("../images/lublin-miasto.jpg");
+
+    background-position: 0 20%;
 }
 
 .blockquote p {
@@ -300,6 +316,10 @@ main h2 {
 
 footer .row {
     margin-right: 0;
+}
+
+#contact .card:hover i, #contact .card:hover h4 {
+    color: #87d37c;
 }
 
 @media screen and (max-width: 384px) {
