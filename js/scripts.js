@@ -24,7 +24,7 @@ jQuery("#p_waypoint2").css('opacity', 0);
 
 var waypoint1 = new Waypoint({
     element: value1,
-    handler: function (direction = down) {
+    handler: function (direction) {
         value1.classList.add('animate__animated', 'animate__fadeIn')
     },
     offset: 850
@@ -32,7 +32,7 @@ var waypoint1 = new Waypoint({
 
 var waypoint2 = new Waypoint({
     element: value2,
-    handler: function (direction = down) {
+    handler: function (direction) {
         value2.classList.add('animate__animated', 'animate__fadeIn')
     },
     offset: 780
@@ -40,7 +40,7 @@ var waypoint2 = new Waypoint({
 
 var waypoint3 = new Waypoint({
     element: value3,
-    handler: function (direction = down) {
+    handler: function (direction) {
         value3.classList.add('animate__animated', 'animate__fadeIn')
     },
     offset: 750
@@ -48,7 +48,7 @@ var waypoint3 = new Waypoint({
 
 var waypoint4 = new Waypoint({
     element: value4,
-    handler: function (direction = down) {
+    handler: function (direction) {
         value4.classList.add('animate__animated', 'animate__fadeIn')
     },
     offset: 680
@@ -56,7 +56,7 @@ var waypoint4 = new Waypoint({
 
 var waypoint5 = new Waypoint({
     element: value5,
-    handler: function (direction = down) {
+    handler: function (direction) {
         value5.classList.add('animate__animated', 'animate__fadeIn')
     },
     offset: 650
