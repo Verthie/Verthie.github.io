@@ -3,8 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -35,18 +34,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif; 
     */
-    margin: 0;
 }
 
 /*Top*/
 header {
-    margin: 0;
-    padding: 0;
     font-size: 15px;
 }
 
 .topline {
-    margin: 0;
     padding: 0.2em 0 0 0;
     font-family: 'Montserrat', sans-serif;
     height: 1.6em;
@@ -119,11 +114,76 @@ header {
 .bi-facebook {
     font-size: 2rem;
     color: black;
-    transition: color .2s;
+    transition: color .3s;
 }
 
 .bi-facebook:hover {
     color: rgba(57, 136, 74, 0.527);
+}
+
+/*
+main h2 {
+    text-decoration: underline;
+}
+*/
+
+.aboutus .col {
+    font-size: 1.35em;
+    padding: 0;
+
+}
+
+.aboutus .col-2 {
+    padding: 0;
+}
+
+.pimage {
+    height: auto;
+    /*background-color: aqua;*/
+    background: url("https://avatarfiles.alphacoders.com/968/thumb-96848.png");
+    background-size: cover;
+    /*background-position: 0 15%;*/
+    margin: 0;
+}
+
+#list-values {
+    margin-top: 1em;
+    font-size: 2em;
+    cursor: default;
+}
+
+#list-values strong {
+    font-size: 2em;
+    color: rgba(10, 148, 40, 0.527);
+    transition: color 1s;
+}
+
+#list-values strong:hover {
+    color: rgba(17, 153, 142, 0.808);
+}
+
+#listofvalues {
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+#listofvalues li {
+    margin: 0.7em 0;
+}
+
+#listofvalues span {
+    color: rgb(5, 182, 40);
+}
+
+.ab-pharagraphs {
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 830px) {
+    #list-values {
+        font-size: 1.5em;
+        margin-top: 0em;
+    }
 }
 
 @media screen and (max-width: 1199px) {
