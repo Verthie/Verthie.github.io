@@ -547,21 +547,23 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
 
+/*
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
   }
 }
+*/
 
-@media (min-width: 768px) {
+@media (min-width: 880px) {
   .container, .container-sm, .container-md {
-    max-width: 720px;
+    max-width: 100%;
   }
 }
 
