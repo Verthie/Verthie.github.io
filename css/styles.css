@@ -36,6 +36,18 @@ body {
     */
 }
 
+/*
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*/
+
+main {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*Top*/
 header {
     font-size: 15px;
@@ -149,10 +161,9 @@ main h2 {
 .aboutus .col {
     font-size: 1.35em;
     padding: 0;
-
 }
 
-.aboutus .col-2 {
+.aboutus .col-xl-2 {
     padding: 0;
 }
 
@@ -203,6 +214,7 @@ main h2 {
 
 #list-values {
     margin-top: 1em;
+    margin-bottom: 2em;
     font-size: 2em;
     cursor: default;
 }
