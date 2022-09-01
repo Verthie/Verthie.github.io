@@ -133,6 +133,26 @@ header {
     color: rgba(255, 255, 255, 0.493);
 }
 
+.bgpictures {
+    transition: transform 300ms ease;
+}
+
+.bgpictures:hover {
+    transform: scale(1.1);
+}
+
+#img6 {
+    position: absolute;
+    left: -500px;
+    top: -75px;
+}
+
+#img7 {
+    position: absolute;
+    left: 450px;
+    top: -75px;
+}
+
 .nav-link.active {
     color: rgba(57, 136, 74, 0.527) !important;
     transition: color .2s;
@@ -152,12 +172,6 @@ header {
     color: rgba(57, 136, 74, 0.527);
 }
 
-/*
-main h2 {
-    text-decoration: underline;
-}
-*/
-
 .aboutus .col {
     font-size: 1.35em;
     padding: 0;
@@ -168,17 +182,11 @@ main h2 {
 }
 
 .pimage {
-    width: 100%;
     height: auto;
-    /*background-color: aqua;*/
-    background-size: cover;
     margin: 0;
 }
 
 .primage {
-    width: 100%;
-    /*background-color: aqua;*/
-    background-size: cover;
     height: 12em;
 }
 
@@ -186,30 +194,40 @@ main h2 {
     background: url("../images/Types-of-Meetings.png");
     background-position: 50% 0%;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 #img2 {
     background: url("../images/GlobeVector.jpg");
     background-position: 50% 20%;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 #img3 {
     background: url("../images/excellence.jpg");
     background-position: 50% 40%;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 #img4 {
     background: url("../images/accredation.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 #img5 {
     background: url("../images/europeunion.jpg");
-    background-position: 50% 50%;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 #list-values {
@@ -232,6 +250,7 @@ main h2 {
 #listofvalues {
     font-size: 0.9em;
     margin: 0.5em 0;
+    list-style: none;
 }
 
 #listofvalues li {
@@ -250,149 +269,12 @@ footer .row {
     color: #87d37c;
 }
 
-@media screen and (max-width: 384px) {
-
-    .topline {
-        display: none;
-    }
-
-    #list-values {
-        font-size: 1em;
-        margin-top: 0em;
-    }
-
-    .primage {
-        height: 9em;
-    }
-
-    .aboutus {
-        font-size: 0.5em;
-        margin: 0 6em;
-    }
-
-    #img1 {
-        background-position: 50% 20%;
-    }
-
-    #img5 {
-        background-size: 100%;
-    }
-
-
-}
-
-@media screen and (min-width: 385px) and (max-width: 469px) {
-
-    #list-values {
-        font-size: 1.1em;
-        margin-top: 0em;
-    }
-
-    .primage {
-        height: 9em;
-    }
-
-    .aboutus {
-        font-size: 0.7em;
-        margin: 0 5em;
-    }
-
-    #img5 {
-        background-size: 100%;
-    }
-
-}
-
-@media screen and (min-width: 470px) and (max-width: 560px) {
-
-    #list-values {
-        font-size: 1.3em;
-        margin-top: 0em;
-    }
-
-    .primage {
-        height: 9em;
-    }
-
-    .aboutus {
-        font-size: 0.8em;
-        margin: 0 7em;
-    }
-
-    #img5 {
-        background-size: 100%;
-    }
-
-}
-
-@media screen and (min-width: 561px) and (max-width: 793px) {
-
-    #list-values {
-        font-size: 1.3em;
-        margin-top: 0em;
-    }
-
-    .primage {
-        height: 9em;
-    }
-
-    .aboutus {
-        font-size: 0.8em;
-        margin: 0 11em;
-    }
-
-    #img5 {
-        background-size: 100%;
-    }
-
-}
-
-@media screen and (min-width: 794px) and (max-width: 900px) {
-    #list-values {
-        font-size: 1.2em;
-        margin-top: 0em;
-    }
-
-    .primage {
-        height: 9em;
-    }
-
-    .aboutus {
-        font-size: 0.8em;
-        margin: 0 19em;
-    }
-
-    #img5 {
-        background-size: 100%;
-    }
-
-}
-
-@media screen and (min-width: 901px) and (max-width: 1199px) {
-
-    .aboutus {
-        font-size: 0.9em;
-        margin: 0 16em;
-    }
-
-    #list-values {
-        font-size: 1.6em;
-        margin-bottom: 2em;
-    }
-
-}
-
-@media screen and (max-width: 1199px) {
-    #navbarSupportedContent>a {
-        margin-left: 1em;
-    }
-
-    .aboutus {
-        text-align: center;
-    }
+.city h2 {
+    font-size: 2em;
 }
 
 @media screen and (min-width: 1200px) {
+
     .navbar-brand {
         margin-right: 2em;
     }
@@ -432,7 +314,6 @@ footer .row {
 
     #img3 {
         background-position: 45% 60%;
-        background-size: 300px;
     }
 
     #img4 {
@@ -442,65 +323,220 @@ footer .row {
 
     #img5 {
         background-position: 45% 60%;
-        background-size: 290px;
+        background-size: 320px;
     }
 
 }
 
-/* Internships */
 
-.main {
-    width: 70%;
-    border-left: solid 1px black;
-    border-right: solid 1px black;
-    text-align: center;
+
+
+
+@media screen and (max-width: 1199px) {
+
+    .blockquote footer {
+        margin: 0 20px;
+    }
+
+    .blockquote p {
+        margin: 0 20px;
+    }
+
+    #navbarSupportedContent>a {
+        margin-left: 1em;
+    }
+
+    .aboutus {
+        text-align: center;
+        font-size: 0.9em;
+        margin: 0 16em;
+    }
+
+    #list-values {
+        font-size: 1.6em;
+        margin-bottom: 2em;
+    }
+
+    #img6 {
+        left: -250px;
+        top: -75px;
+    }
+
+    #img7 {
+        left: 250px;
+        top: -75px;
+    }
+
+    .city ul {
+        margin-right: 0.5rem;
+    }
+
 }
 
-.title {
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+@media screen and (max-width: 1050px) {
+
+    .city ul {
+        padding-left: 2em;
+    }
+
+    .city #events {
+        padding-left: 1em;
+    }
+
+
 }
 
-/* Cards */
-.card-c1 {
-    margin: auto;
-    margin-bottom: 1rem;
-    width: 65%;
-    height: auto;
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 900px) {
+
+    #list-values {
+        font-size: 1.3em;
+        margin-top: 0em;
+    }
+
+    .primage {
+        height: 9em;
+    }
+
+    .aboutus {
+        font-size: 0.8em;
+        margin: 0 19em;
+    }
+
 }
 
-.row-offers {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1em;
+@media screen and (max-width: 793px) {
+
+    .aboutus {
+        margin: 0 11em;
+    }
+
+    #img6 {
+        width: 50%;
+        left: -130px;
+        top: -26px;
+    }
+
+    #img7 {
+        width: 50%;
+        left: 230px;
+        top: -26px;
+    }
+
+    .city {
+        font-size: 0.9em;
+    }
+
 }
 
-.card-offers {
-    width: 12rem;
-    padding: 1rem;
-    height: 20rem;
-    align-items: center;
-    border: none;
-    /*border: none;*/
+@media screen and (max-width: 560px) {
+
+    .blockquote p {
+        text-align: center !important;
+    }
+
+    .blockquote footer {
+        text-align: center !important;
+    }
+
+    .aboutus {
+        font-size: 0.8em;
+        margin: 0 7em;
+    }
+
+    #img6 {
+        width: 50%;
+        left: -130px;
+        top: -26px;
+    }
+
+    #img7 {
+        width: 50%;
+        left: 230px;
+        top: -26px;
+    }
+
+    .city {
+        font-size: 0.8em;
+    }
+
 }
 
-.card-offer-cs {
-    border: none;
+@media screen and (max-width: 469px) {
+
+    #list-values {
+        font-size: 1.1em;
+    }
+
+    .aboutus {
+        font-size: 0.7em;
+        margin: 0 5em;
+    }
+
+    #img6 {
+        width: 25%;
+        left: -65px;
+        top: 5px;
+    }
+
+    #img7 {
+        width: 25%;
+        left: 215px;
+        top: 5px;
+    }
+
 }
 
-.card-offer-contents {
-    height: 6rem;
-    margin: auto;
+@media screen and (max-width: 384px) {
+
+    .blockquote p {
+        font-size: 1.5em;
+    }
+
+    .topline {
+        display: none;
+    }
+
+    #list-values {
+        font-size: 1em;
+    }
+
+    .aboutus {
+        font-size: 0.5em;
+        margin: 0 6em;
+    }
+
+    #img1 {
+        background-position: 50% 20%;
+    }
+
+    #img6 {
+        width: 25%;
+        left: -57px;
+        top: 5px;
+    }
+
+    #img7 {
+        width: 25%;
+        left: 180px;
+        top: 5px;
+    }
+
 }
 
-.img-offers {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 1rem;
+@media screen and (max-width: 300px) {
+
+    #img6 {
+        width: 25%;
+        left: 63px;
+        top: -70px;
+    }
+
+    #img7 {
+        width: 25%;
+        left: 63px;
+        top: 70px;
+    }
+
 }
 
 #imgguide {
@@ -511,151 +547,56 @@ footer .row {
     height: 800px;
 }
 
-/* Guide */
-
-.title-guide {
-    color: white;
-    opacity: 100;
-    z-index: 1;
+.city p {
+    font-size: 1.1em;
 }
 
-.title-guide:link {
+.city #museums {
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.gototop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.gototop.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.gototop a {
+    width: 50px;
+    height: 50px;
+    display: table;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.gototop a i {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gototop a:hover, .gototop a:active, .gototop a:focus {
     text-decoration: none;
+    outline: none;
 }
 
-.title-guide:visited {
-    text-decoration: none;
-}
-
-.title-guide:hover {
-    text-decoration: none;
-    color: rgb(143, 192, 236);
-}
-
-.title-guide:active {
-    text-decoration: none;
-}
-
-/* Internships Sectors*/
-.card-sectors-gn {
-    margin: auto;
-    height: 50em;
-    display: flex;
-    justify-content: center;
-    border: none;
-}
-
-.row-sectors {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-    gap: 3em;
-}
-
-.card-sectors {
-    height: 100%;
-    border: none;
-}
-
-.img-sectors {
-    width: 16em;
-    height: 16em;
-}
-
-.card-block-acc {
-    width: 100%;
-    align-self: center;
-    justify-self: center;
-}
-
-
-.card-acc {
-    margin: 1em;
-    padding: 1em;
-    width: 30em;
-    border: none;
-}
-
-.img-acc {
-    width: 30em;
-    height: 40em;
-}
-
-.list-hd {
-    font-size: 1.5em;
-    font-weight: 400;
-}
-
-/* Gallery */
-.row-gallery {
-    margin: 0;
-    padding: 0;
-}
-
-.col-gallery {
-    margin: 0;
-    padding: 0;
-}
-
-.img-holder {
-    width: fit-content;
-    height: 20em;
-}
-
-.img-gallery {
-    width: 20em;
-    height: 20em;
-    margin: 0;
-}
-
-.img-gallery:hover {
-    transform: scale(1.5);
-    z-index: 1;
-}
-
-/*    --------------------     */
-
-.lightbox-gallery {
-    background-repeat: no-repeat;
-    color: #000;
-    overflow-x: hidden
-}
-
-.lightbox-gallery p {
-    color: #fff
-}
-
-.lightbox-gallery h2 {
-    font-weight: bold;
-    margin-bottom: 40px;
-    padding-top: 40px;
-    color: #fff
-}
-
-@media (max-width:767px) {
-    .lightbox-gallery h2 {
-        margin-bottom: 25px;
-        padding-top: 25px;
-        font-size: 24px;
-    }
-}
-
-.lightbox-gallery .intro {
-    font-size: 16px;
-    max-width: 500px;
-    margin: 0 auto 40px;
-}
-
-.lightbox-gallery .intro p {
-    margin-bottom: 0;
-}
-
-.lightbox-gallery .photos {
-    padding-bottom: 20px;
-}
-
-.lightbox-gallery .item {
-    padding: 0;
+.js .animate-box {
+    opacity: 0;
 }

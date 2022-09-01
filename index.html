@@ -20,7 +20,7 @@
 	<!-- CSS Styles -->
 
 	<!-- Animations -->
-	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
@@ -31,6 +31,9 @@
 	<!-- Icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 	<!--Do wykorzystania przy hover na dropdown:  <i class="bi bi-caret-down-fill"></i>-->
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
 
 </head>
 
@@ -65,9 +68,9 @@
 							aria-expanded="false" data-reference="parent"><i class="bi bi-book-fill"></i>Our
 							offer</a>
 						<div class="dropdown-menu dropdown-menu-center">
-							<a class="dropdown-item" href="interships.html">Internships</a>
-							<a class="dropdown-item" href="interships.html#Teachers">For Teachers</a>
-							<a class="dropdown-item" href="interships.html#Accomodation">Accommodation</a>
+							<a class="dropdown-item" href="interships.html">Interships</a>
+							<a class="dropdown-item" href="interships.html#ForTeachers">For Teachers</a>
+							<a class="dropdown-item" href="interships.html#AccommodationList">Accomodation</a>
 						</div>
 					</div>
 				</li>
@@ -104,25 +107,27 @@
 
 	<!-- bgimage -->
 	<section class="bgimage">
-		<blockquote class="blockquote animate__animated animate__fadeIn animate__delay-1s animate__slow">
+		<blockquote class="blockquote animated fadeIn delay-1s slow">
 			<p class="mb-0 text-right"><strong>„There's nothing impossible for a person with will”</strong></strong></p>
-			<footer class="blockquote-footer text-right"><cite title="Source Title">Desiderius Erasmus
-					Roterodamus</cite></footer>
+			<footer class="blockquote-footer text-right">Desiderius Erasmus
+				Roterodamus</footer>
 		</blockquote>
 	</section>
 
 	<!-- site-content -->
-	<main>
-		<h2 class="text-center mt-4 mb-4 animate__animated animate__rubberBand">About Us</h2>
+	<main class="mb-4">
+		<h2 class="text-center mt-4 mb-4 animated rubberBand">About Us</h2>
 		<div class="container">
 			<div class="aboutus">
-				<div class="row border rounded animate__animated animate__bounceInRight mb-3">
+				<div class="row border rounded animated bounceInRight mb-3">
 					<div class="col-xl-2 mr-3 pimage d-none d-xl-block rounded-left" id="img1"><img></div>
 					<div class="col">
 						<div class="primage d-xl-none rounded-top" id="img1"><img></div>
-						<p>
-							EDU-IT has experience as a host organization within the Erasmus + program - for over 20
-							years it has been a host and intermediary organization: conducting trainings and internships
+						<p class="my-sm-2 mx-sm-1">
+							<strong>EDU-IT</strong> has experience as a host organization within the Erasmus + program -
+							for <strong>over 20
+								years</strong> it has been a host and intermediary organization: conducting trainings
+							and internships
 							for foreign students, vocational schools and teachers. We have extensive experience in
 							organizing apprenticeships and internships for young people and adults from Poland and
 							abroad.
@@ -130,11 +135,13 @@
 					</div>
 				</div>
 				<div class="w-100"></div>
-				<div class="row border rounded animate__animated animate__bounceInLeft animate__delay-1s mb-3">
+				<div class="row border rounded animated bounceInLeft delay-1s mb-3">
 					<div class="col leftyboy">
 						<div class="primage d-xl-none rounded-top" id="img2"><img></div>
-						<p>
-							For over 10 years, EDU -IT has been organizing internships for over 1500 students of
+						<p class="my-sm-2 mx-sm-1">
+							<strong>For over 10 years,</strong> EDU -IT has been organizing internships for <strong>over
+								1500
+								students</strong> of
 							vocational schools from all over Europe - Lithuania, Hungary, Belgium, Spain, Portugal,
 							Italy,
 							Sweden, Finland, Norway, Turkey, as well as vocational training and internships for around
@@ -144,14 +151,16 @@
 					<div class="col-xl-2 ml-1 pimage d-none d-xl-block rounded-right" id="img2"><img></div>
 				</div>
 				<div class="w-100"></div>
-				<div class="row border rounded animate__animated animate__bounceInRight animate__delay-2s mb-3">
+				<div class="row border rounded animated bounceInRight delay-2s mb-3">
 					<div class="col-xl-2 mr-3 pimage d-none d-xl-block rounded-left" id="img3"><img></div>
 					<div class="col">
 						<div class="primage d-xl-none rounded-top" id="img3"><img></div>
-						<p>
-							Our mission is to strive for excellence in the field of educational services provided to
-							Polish
-							and European clients. We aim at providing high-quality content, comfort of training, the use
+						<p class="my-sm-2 mx-sm-1">
+							<strong>Our mission</strong> is to strive for excellence in the field of educational
+							services provided to
+							<strong>Polish
+								and European clients.</strong> We aim at providing high-quality content, comfort of
+							training, the use
 							of modern and effective solutions and customer service that guarantees customer
 							satisfaction.
 						</p>
@@ -161,33 +170,41 @@
 		</div>
 
 		<div class="text-center" id="list-values">
-			<span>We are <strong id="waypoint_value">guided by <span>values</span></strong> such as:</span>
+			<span class="animate-box">We are <strong>guided by values</strong> such as:</span>
 			<ul id="listofvalues">
-				<li id="list_waypoint1" class="animated">
+				<li class="animate-box" data-animate-effect="fadeIn">
 					<span>quality</span>, <span>responsibility</span> and <span>modernity</span>
 				</li>
-				<li id="list_waypoint2" class="animated"><span>unique</span> and <span>warm atmosphere</span> for
+				<li class="animate-box" data-animate-effect="fadeIn"><span>unique</span> and <span>warm
+						atmosphere</span>
+					for
 					<span>our clients</span>
 				</li>
-				<li id="list_waypoint3" class="animated"><span>creativity</span>, <span>friendliness</span> and
+				<li class="animate-box" data-animate-effect="fadeIn"><span>creativity</span>, <span>friendliness</span>
+					and
 					<span>openess</span>
 				</li>
-				<li id="list_waypoint4" class="animated">we derive <span>satisfaction from our work</span> and
+				<li class="animate-box" data-animate-effect="fadeIn">we derive <span>satisfaction from our work</span>
+					and
 					<span>contact with other people</span>
 				</li>
-				<li id="list_waypoint5" class="animated">we <span>understand the needs</span> of the market in the field
+				<li class="animate-box" data-animate-effect="fadeIn">we <span>understand the needs</span> of the market
+					in
+					the field
 					of <span>lifelong learning</span></li>
 			</ul>
 		</div>
 
 		<div class="container">
 			<div class="aboutus">
-				<div class="row border rounded mb-3" id="p_waypoint1">
+				<div class="row border rounded mb-3 animate-box" data-animate-effect="bounceInRight">
 					<div class="col-xl-2 mr-3 pimage d-none d-xl-block rounded-left" id="img4"><img></div>
 					<div class="col">
 						<div class="primage d-xl-none rounded-top" id="img4"><img></div>
-						<p>
-							In 2020, EDU-IT received Erasmus accreditation for the Consortium coordinator in the field
+						<p class="my-sm-2 mx-sm-1">
+							<strong>In 2020,</strong> EDU-IT received <strong>Erasmus accreditation</strong> for the
+							Consortium
+							coordinator in the field
 							of vocational education and training. The aim of the Consortium is the cooperation of the
 							parties and the joint and solid implementation of Erasmus + mobility projects in the
 							financial perspective for the years 2021-2027 under the granted accreditation.
@@ -195,12 +212,14 @@
 					</div>
 				</div>
 				<div class="w-100"></div>
-				<div class="row border rounded mb-3" id="p_waypoint2">
+				<div class="row border rounded mb-3 animate-box" data-animate-effect="bounceInLeft">
 					<div class="col leftyboy">
 						<div class="primage d-xl-none rounded-top" id="img5"><img></div>
-						<p>
-							Erasmus accreditations are a tool for education and training organizations wishing to
-							open up to cross-border exchange and cooperation. The award of Erasmus accreditation
+						<p class="my-sm-2 mx-sm-1">
+							<strong>Erasmus accreditations</strong> are a tool for education and training organizations
+							wishing to
+							open up to <strong>cross-border exchange and cooperation</strong>. The award of Erasmus
+							accreditation
 							confirms that the organization has set up a plan to implement high-quality mobility
 							activities and use them to improve the education and training offer.
 						</p>
@@ -218,7 +237,7 @@
 		<section class="mb-4">
 			<div class="container text-center text-md-start mt-5">
 				<div class="row mt-3">
-					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+					<div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
 						<h6 class="text-uppercase fw-bold">EDU-IT SP.J.</h6>
 						<hr class="mb-4 mt-0 d-inline-block mx-auto"
 							style="width: 60px; background-color: rgb(5, 182, 40); height: 2px" />
@@ -227,7 +246,7 @@
 								title="Our facebook page">facebook</a>
 						</p>
 					</div>
-					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
 						<h6 class="text-uppercase fw-bold">Useful links</h6>
 						<hr class="mb-4 mt-0 d-inline-block mx-auto"
 							style="width: 60px; background-color: rgb(5, 182, 40); height: 2px" />
@@ -256,24 +275,30 @@
 			</div>
 		</section>
 
-		<div class="text-center pt-3" style="background-color: rgba(0, 0, 0, 0.2)">
-			© 2022 Copyright:
-			<a class="text-white" href="https://mdbootstrap.com/">Lorem ipsum</a>
+		<div class="text-center pt-1" style="background-color: rgba(0, 0, 0, 0.2)">
+			© <span class="copyright-year">current year</span> Copyright: Edu-IT
 		</div>
 	</footer>
 
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="bi bi-caret-up-fill"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- jQuery Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+		$(".copyright-year").text(new Date().getFullYear());
+	</script>
+
 </body>
-
-
-<!-- jQuery -->
-<script src="js/jquery-3.6.0.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- jQuery Waypoints -->
-<script src="js/noframework.waypoints.min.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- Scripts -->
-<script src="js/scripts.js"></script>
 
 </html>

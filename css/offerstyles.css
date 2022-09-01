@@ -1,0 +1,280 @@
+#ouroffer {
+    padding: 0;
+    clear: both;
+}
+
+#sectors,
+#teachers,
+#accommodation {
+    padding: 0 0 2.5em 0;
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+
+    #ouroffer,
+    #sectors,
+    #accommodation {
+        padding: 2em 0;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 768px) {
+
+    #sectors {
+        margin: 0 7em;
+    }
+
+    #accommodation {
+        margin: 0 2em;
+    }
+}
+
+
+.fh5co-heading {
+    margin-bottom: 5em;
+}
+
+.fh5co-heading h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.fh5co-heading h2:after {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 50px;
+    height: 1px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.fh5co-heading p {
+    font-size: 14px;
+}
+
+.services {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.services h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.services h3 a {
+    color: #000;
+}
+
+.services .icon {
+    width: 90px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.04);
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+    .services .icon {
+        margin: 0 auto 30px auto;
+    }
+}
+
+.services .icon i {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.services:hover .icon, .services:focus .icon {
+    background: #0eb459;
+}
+
+.services:hover .icon i, .services:focus .icon i {
+    color: #fff;
+}
+
+.fh5co-blog {
+    margin-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+    .fh5co-blog {
+        width: 100%;
+    }
+}
+
+.fh5co-blog .blog-img-holder {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 270px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.fh5co-blog:hover .blog-img-holder {
+    -webkit-box-shadow: inset 0px 0px 77px 11px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: inset 0px 0px 77px 11px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 0px 0px 77px 11px rgba(0, 0, 0, 0.74);
+}
+
+.fh5co-blog .blog-text {
+    position: relative;
+    background: rgba(0, 0, 0, 0.03);
+    width: 100%;
+    height: 22em;
+    padding: 30px;
+    float: left;
+}
+
+.fh5co-blog .blog-text span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.fh5co-blog .blog-text span.comment {
+    float: right;
+}
+
+.fh5co-blog .blog-text span.comment a {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.fh5co-blog .blog-text span.comment a i {
+    padding-left: 7px;
+}
+
+.fh5co-blog .blog-text h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.fh5co-blog .blog-text h3 a {
+    color: black;
+}
+
+.course {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.course .desc, .course .course-img {
+    width: 50%;
+    display: inline-block;
+}
+
+.course .course-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.course .desc {
+    padding: 1.7em;
+    background: #fafafa;
+    height: 17em;
+}
+
+#descb {
+    height: auto;
+}
+
+.course .desc h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.course .desc .date {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.course:hover .course-img {
+    -webkit-box-shadow: inset 0px 0px 77px 11px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: inset 0px 0px 77px 11px rgba(0, 0, 0, 0.74);
+    box-shadow: inset 0px 0px 77px 11px rgba(0, 0, 0, 0.74);
+}
+
+#imgaccommodation {
+    background: url("../images/accommodation.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgstandards {
+    background: url("../images/standards.jfif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgcatering {
+    background: url("../images/catering.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .course .course-img {
+        height: 270px;
+    }
+
+    .course .desc {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .course .desc, .course .course-img {
+        width: 100%;
+    }
+}

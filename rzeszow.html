@@ -20,24 +20,26 @@
 	<!-- CSS Styles -->
 
 	<!-- Animations -->
-	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<!-- Carousel-->
 	<link href="css/carousel.css" rel="stylesheet">
-	<link href="css/stylecarousel.css" rel="stylesheet">
-	<link href="css/media-queries.css" rel="stylesheet">
 
 	<!-- Style.css -->
 	<link href="css/styles.css" rel="stylesheet">
 
-
+	<!-- Newerstyles.css -->
+	<link href="css/newerstyles.css" rel="stylesheet">
 
 	<!-- Icons -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 	<!--Do wykorzystania przy hover na dropdown:  <i class="bi bi-caret-down-fill"></i>-->
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
 
 </head>
 
@@ -73,9 +75,9 @@
 							aria-expanded="false" data-reference="parent"><i class="bi bi-book-fill"></i>Our
 							offer</a>
 						<div class="dropdown-menu dropdown-menu-center">
-							<a class="dropdown-item" href="interships.html">Internships</a>
-							<a class="dropdown-item" href="interships.html#Teachers">For Teachers</a>
-							<a class="dropdown-item" href="interships.html#Accomodation">Accommodation</a>
+							<a class="dropdown-item" href="interships.html">Interships</a>
+							<a class="dropdown-item" href="interships.html#ForTeachers">For Teachers</a>
+							<a class="dropdown-item" href="interships.html#AccommodationList">Accomodation</a>
 						</div>
 					</div>
 				</li>
@@ -111,166 +113,226 @@
 	</nav>
 
 	<section class="bgimage" id="rzeszowimg">
-		<blockquote class="blockquote animate__animated animate__fadeIn animate__delay-1s">
+		<blockquote class="blockquote animated fadeIn delay-1s">
+			<img src="images/wojpodkarpackie-godlo.png" class="bgpictures" alt="img6" id="img6">
 			<p class="mb-0"><strong>Rzeszów</strong></strong></p>
+			<img src="images/rzeszow-godlo.png" class="bgpictures" alt="img7" id="img7">
 		</blockquote>
 	</section>
 
-	<main>
-		<h2 class="text-center mt-4 mb-4 animate__animated animate__rubberBand">Rzeszów the capital of the Podkarpackie
+	<main class="city">
+		<h2 class="text-center mt-4 mb-4 animated rubberBand">Rzeszów the capital of the Podkarpackie
 			Region</h2>
-		<div class="container">
-			<p class="mb-2">
-				<strong>Rzeszów</strong> is called the capital of innovation with many national and international
-				companies representing a wide range of industries. Rzezów city is located in southeastern Poland and is
-				the capital of the Podkarpackie Region with a number of inhabitants - 198 609 people. The Podkarpackie
-				Region is characterized by a high concentration of companies from the aviation industry, research and
-				development centers, and developed educational and training facilities. Only 12 km from the city center
-				there is the airport <a href="https://www.rzeszowairport.pl/en" target="_blank">Rzeszów-Jasionka</a>
-				with many international connections. In its vicinity is located the Podkarpackie Science and Technology
-				Park AEROPOLIS focused on the industry of innovative technologies in the following sectors: aviation,
-				electromechanical, IT, chemical, biotechnology, plastics. Another industry zone is the Rzeszów-Dworzysko
-				Special Economic Zone which operates near the city. Rzeszów is a center of Aviation Valley Association
-				which includes 178 entities.
-			</p>
+		<div class="d-flex justify-content-center">
+			<div class="container">
+				<p class="mb-2 mx-2 text-center">
+					<strong>Rzeszów</strong> is called the capital of innovation with many national and international
+					companies representing a wide range of industries. Rzeszów city is located in southeastern Poland
+					and is the capital of the Podkarpackie Region with a number of inhabitants - 198 609 people. The
+					Podkarpackie Region is characterized by a high concentration of companies from the aviation
+					industry, research and development centers, and developed educational and training facilities.
+				</p>
 
-			<p class="mb-3">
-				The Rzeszów City is called the city of young people with the largest percentage of students in
-				Europe in relations to the number of inhabitants.
-			</p>
+				<p class="mb-2 mx-2 text-center">
+					Only 12 km from the city center there is the airport <a href="https://www.rzeszowairport.pl/en"
+						target="_blank">Rzeszów-Jasionka</a> with many international connections. In its vicinity is
+					located the Podkarpackie Science and Technology Park AEROPOLIS focused on the industry of innovative
+					technologies in the following sectors: aviation, electromechanical, IT, chemical, biotechnology,
+					plastics. Another industry zone is the Rzeszów-Dworzysko Special Economic Zone which operates near
+					the city. Rzeszów is a center of Aviation Valley Association which includes 178 entities.
+				</p>
 
-			<ul class="mb-4"><strong>Rzeszów in the rankings:</strong>
-				<li>ranked 4th in the ranking &quot; Good for life in 2021 &quot;</li>
-				<li>4th place in the general classification of the Ranking of Polish Sustainable Cities, Arcadis</li>
-				<li>1st place in the Business-Friendly Cities Ranking (in the category of 150 thousand - 299
-					thousand residents)</li>
-				<li>ranked 6th in the &quot;Europolis&quot; ranking of the most ecological Polish cities, prepared by
-					the Schuman Foundation and the Adenauer Foundation</li>
-				<li>in the ranking of security in Polish cities, Rzeszów is at the top of the ranking in terms of the
-					number of crimes in the largest Polish cities.</li>
-			</ul>
+				<p class="mb-0 mx-2 text-center">
+					The Rzeszów City is called the city of young people with the largest percentage of students in
+					Europe in relations to the number of inhabitants.
+				</p>
 
-			<ul class="mb-4"><strong>Tourist attraction</strong>
-				<p class="mb-1">Each region in Poland has its showcase that distinguishes it from other areas. This is
-					what distinguishes Podkarpackie Region:</p>
-				<li>The most characteristic element of Podacrpacie is wild nature and one of the greenest region in
-					Poland</li>
-				<li>Through the area of the Podkarpackie Region run tourist routes following the trail of castles,
-					palaces and noble manors</li>
-				<li>Green velo - Hundreds of kilometers of routes for cyclists can be traversed in Podkarpacie,
-					including 459 km belonging to the <a href="https://greenvelo.pl/en" target="_blank">Green Velo
-						Eastern Bicycle Trail</a>
-				</li>
-				<li>The Jasło Wine Trail is concentrated around the Subcarpathian town of Jasło, it
-					includes 16 vineyards located in the immediate vicinity</li>
-				<li>Podkarpackie is a place in Europe where many monuments of wooden architecture
-					are concentrated in a relatively small area. On 9 routes, with a total length of 1,202
-					km, you can see churches, Orthodox churches, historic manors, hunting palaces,
-					burghers&#39; houses and spa villas. As many as 6 sites have been inscribed on the
-					UNESCO World Heritage List</li>
-				<li>The Bieszczady Mountains - Bieszczady National Park provide attractions at any time
-					of the year (hiking, biking, horseback riding, skiing, snowboarding, cross-country
-					skiing routes). This is the place where the largest Polish predators live - bears, wolves,
-					lynxes and bisons. In the Bieszczady Mountains there is also the Solińskie Lake - the
-					most popular artificial water reservoir in Podkarpacie, a perfect place for
-					windsurfing, water skiing, kayaking, diving and sailing. The sailing season on Solina
-					usually begins in May and lasts until later in autumn. There is also the highest dam in
-					Poland</li>
-				<li>Railway shelter from the Second World War in Strzyżów - This is the only
-					underground railway shelter in Poland and the second of the facilities to protect
-					German trains in the present-day Podkarpackie Province. The railway bunker is
-					hidden inside the mountain, it is 438 m long and the ceiling is almost 6.5 m high</li>
-				<li><a href="https://kolejka-pogorzanin.pl/" target="_blank">The narrow gauge railway in
-						podkarpackie</a> is currently the longest operating narrow
-					gauge railway in Poland. The railway route knows along the budget of the river
-					through the picturesque hills and forest complexes. The railway runs every weekend
-					from May to September, and also on special orders</li>
-				<li>
-					<div class="row-lg-auto p-0 m-0 d-flex justify-content-between align-items-center">
-						<ul class="mt-1"><strong>Exceptional museums in Podkarpacie:</strong>
-							<li>The Museum of the Christmas Tree Balls in Nowa Dęba</li>
-							<li>Museum of Bells and Pipes located in the 18th century Clock Tower in the city Przemyśl
-							</li>
-							<li>The Museum of Bedtime Cartoons in Rzeszów</li>
-							<li>Museum of Oil and Gas Industry Ignacy Łukasiewicz in Bóbrka</li>
-							<li>The Ulma Family Museum of Poles Saving Jews in World War II in Markowe</li>
-							<li>Underground Tourist Route &quot;Rzeszów Cellars&quot; in Rzeszów which runs about 10 m
-								under
-								the
-								market square</li>
-							<li>Museum Of Folk Culture In Kolbuszowa</li>
-
-						</ul>
-						<img src="images/wojpodkarpackie-godlo.png" class="mx-auto d-block" alt="img6" id="img6">
+				<div class="container conter">
+					<div class="faders">
+						<div class="left"></div>
+						<div class="right"></div>
 					</div>
-				</li>
-			</ul>
-			<div class="row-lg-auto p-0 m-0 d-flex justify-content-between align-items-center">
-				<ul ul class="mb-4"><strong>Annual cultural events, festivals, concerts:</strong>
-					<li>Carpathia Festival - an international music festival in Rzeszów</li>
-					<li>International Mountain Balloon Competition in Krosno</li>
-					<li>The international Music Festival in Łańcut, classical music</li>
-					<li>Running festival &quot;Butcher&#39;s run&quot; (polish: Bieg Rzeźnika) in the Bieszczady
-						Mountains -
-						the most popular mountain running event in Poland</li>
-					<li>Music festiwal European stadium of culture - the largest in Podkarpacie and one of the
-						most interesting music festivals in Poland</li>
-					<li>Festival of folk music and culture in Gorajec</li>
-					<li>Cieszanów Rock Festiwal</li>
-					<li>International Wine Days in Jasło</li>
-					<li>Juwenalia - students festival</li>
-				</ul>
-				<img src="images/rzeszow-godlo.png" class="mx-auto d-block" alt="img7" id="img7">
-			</div>
 
-			<div class="top-content">
-				<div class="container-fluid">
-					<div id="carousel-example" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner row w-100 mx-auto" role="listbox">
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img1">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img2">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img3">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img4">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img5">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img6">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img7">
-							</div>
-							<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
-								<img src="images/KrakowWawelnoca.jpg" class="img-fluid mx-auto d-block" alt="img8">
+					<div class="items">
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=1" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=2" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=3" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=4" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=5" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=6" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=7" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=8" alt="image">
+						</div>
+					</div>
+
+				</div>
+
+				<ul class="mb-4 mr-2"><strong>Rzeszów in the rankings:</strong>
+					<li>ranked <strong>4th</strong> in the ranking &quot; Good for life in 2021 &quot;</li>
+					<li><strong>4th</strong> place in the general classification of the Ranking of Polish Sustainable
+						Cities, Arcadis
+					</li>
+					<li><strong>1st</strong> place in the Business-Friendly Cities Ranking (in the category of 150
+						thousand - 299
+						thousand residents)</li>
+					<li>ranked <strong>6th</strong> in the &quot;Europolis&quot; ranking of the most ecological Polish
+						cities, prepared
+						by
+						the Schuman Foundation and the Adenauer Foundation</li>
+					<li>in the ranking of security in Polish cities, Rzeszów is at the <strong>top</strong> of the
+						ranking in terms of the number of crimes in the largest Polish cities.</li>
+				</ul>
+
+				<ul><strong>Tourist attraction</strong>
+					<p class="mb-1">Each region in Poland has its showcase that distinguishes it from other areas. This
+						is
+						what distinguishes Podkarpackie Region:</p>
+					<li>The most characteristic element of Podacrpacie is wild nature and one of the greenest region in
+						Poland</li>
+					<li>Through the area of the Podkarpackie Region run tourist routes following the trail of castles,
+						palaces and noble manors</li>
+					<li>Green velo - Hundreds of kilometers of routes for cyclists can be traversed in Podkarpacie,
+						including 459 km belonging to the <a href="https://greenvelo.pl/en" target="_blank">Green Velo
+							Eastern Bicycle Trail</a>
+					</li>
+					<li>The Jasło Wine Trail is concentrated around the Subcarpathian town of Jasło, it
+						includes 16 vineyards located in the immediate vicinity</li>
+					<li>Podkarpackie is a place in Europe where many monuments of wooden architecture
+						are concentrated in a relatively small area. On 9 routes, with a total length of 1,202
+						km, you can see churches, Orthodox churches, historic manors, hunting palaces,
+						burghers&#39; houses and spa villas. As many as 6 sites have been inscribed on the
+						UNESCO World Heritage List</li>
+					<li>The Bieszczady Mountains - Bieszczady National Park provide attractions at any time
+						of the year (hiking, biking, horseback riding, skiing, snowboarding, cross-country
+						skiing routes). This is the place where the largest Polish predators live - bears, wolves,
+						lynxes and bisons. In the Bieszczady Mountains there is also the Solińskie Lake - the
+						most popular artificial water reservoir in Podkarpacie, a perfect place for
+						windsurfing, water skiing, kayaking, diving and sailing. The sailing season on Solina
+						usually begins in May and lasts until later in autumn. There is also the highest dam in
+						Poland</li>
+					<li>Railway shelter from the Second World War in Strzyżów - This is the only
+						underground railway shelter in Poland and the second of the facilities to protect
+						German trains in the present-day Podkarpackie Province. The railway bunker is
+						hidden inside the mountain, it is 438 m long and the ceiling is almost 6.5 m high</li>
+					<li class="mb-3"><a href="https://kolejka-pogorzanin.pl/" target="_blank">The narrow gauge railway
+							in
+							podkarpackie</a> is currently the longest operating narrow
+						gauge railway in Poland. The railway route knows along the budget of the river
+						through the picturesque hills and forest complexes. The railway runs every weekend
+						from May to September, and also on special orders</li>
+					<li>
+						<div class="row" id="museums">
+							<ul class="col-xl-9 mb-0 pt-1"><strong>Exceptional museums in
+									Podkarpacie:</strong>
+								<li>The Museum of the Christmas Tree Balls in Nowa Dęba</li>
+								<li>Museum of Bells and Pipes located in the 18th century Clock Tower in the city
+									Przemyśl
+								</li>
+								<li>The Museum of Bedtime Cartoons in Rzeszów</li>
+								<li>Museum of Oil and Gas Industry Ignacy Łukasiewicz in Bóbrka</li>
+								<li>The Ulma Family Museum of Poles Saving Jews in World War II in Markowe</li>
+								<li>Underground Tourist Route &quot;Rzeszów Cellars&quot; in Rzeszów which runs about 10
+									m
+									under
+									the
+									market square</li>
+								<li>Museum Of Folk Culture In Kolbuszowa</li>
+							</ul>
+							<div class="col-xl-3 pic-ctn d-none d-xl-block">
+								<img src="https://picsum.photos/250/300?t=1" alt="" class="pic">
+								<img src="https://picsum.photos/250/300?t=2" alt="" class="pic">
+								<img src="https://picsum.photos/250/300?t=3" alt="" class="pic">
+								<img src="https://picsum.photos/250/300?t=4" alt="" class="pic">
+								<img src="https://picsum.photos/250/300?t=5" alt="" class="pic">
 							</div>
 						</div>
-						<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
+					</li>
+				</ul>
+				<div class="row" id="events">
+					<ul class="col-xl-9 mb-4 pt-3"><strong>Annual cultural
+							events,
+							festivals,
+							concerts:</strong>
+						<li>Carpathia Festival - an international music festival in Rzeszów</li>
+						<li>International Mountain Balloon Competition in Krosno</li>
+						<li>The international Music Festival in Łańcut, classical music</li>
+						<li>Running festival &quot;Butcher&#39;s run&quot; (polish: Bieg Rzeźnika) in the Bieszczady
+							Mountains -
+							the most popular mountain running event in Poland</li>
+						<li>Music festiwal European stadium of culture - the largest in Podkarpacie and one of the
+							most interesting music festivals in Poland</li>
+						<li>Festival of folk music and culture in Gorajec</li>
+						<li>Cieszanów Rock Festiwal</li>
+						<li>International Wine Days in Jasło</li>
+						<li>Juwenalia - students festival</li>
+					</ul>
+					<div class="col-xl-3 pic-ctn d-none d-xl-block" style="top: 15px">
+						<img src="https://picsum.photos/250/300?t=1" alt="" class="pic">
+						<img src="https://picsum.photos/250/300?t=2" alt="" class="pic">
+						<img src="https://picsum.photos/250/300?t=3" alt="" class="pic">
+						<img src="https://picsum.photos/250/300?t=4" alt="" class="pic">
+						<img src="https://picsum.photos/250/300?t=5" alt="" class="pic">
 					</div>
 				</div>
-			</div>
 
-			<p class="text-center"><a href="https://podkarpackie.travel/en" target="_blank">More tourist attraction you
-					can find here</a></p>
-			<p class="text-center mt-2">Promotional video</p>
+				<div class="container conter d-xl-none d-block">
+					<div class="faders">
+						<div class="left"></div>
+						<div class="right"></div>
+					</div>
 
-			<div class="embed-responsive embed-responsive-16by9 mb-5">
-				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IpAmo9jzk7o"
-					allowfullscreen></iframe>
+					<div class="items">
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=1" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=2" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=3" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=4" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=5" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=6" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=7" alt="image">
+						</div>
+						<div class="entry">
+							<img src="https://picsum.photos/250/300?t=8" alt="image">
+						</div>
+					</div>
+				</div>
+
+				<p class="text-center"><a href="https://podkarpackie.travel/en" target="_blank">More tourist attraction
+						you
+						can find here</a></p>
+				<p class="text-center mt-2">Promotional video</p>
+
+				<div class="embed-responsive embed-responsive-16by9 mb-5">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IpAmo9jzk7o"
+						allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 	</main>
@@ -280,7 +342,7 @@
 		<section class="mb-4">
 			<div class="container text-center text-md-start mt-5">
 				<div class="row mt-3">
-					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+					<div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
 						<h6 class="text-uppercase fw-bold">EDU-IT SP.J.</h6>
 						<hr class="mb-4 mt-0 d-inline-block mx-auto"
 							style="width: 60px; background-color: rgb(5, 182, 40); height: 2px" />
@@ -289,7 +351,7 @@
 								title="Our facebook page">facebook</a>
 						</p>
 					</div>
-					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+					<div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
 						<h6 class="text-uppercase fw-bold">Useful links</h6>
 						<hr class="mb-4 mt-0 d-inline-block mx-auto"
 							style="width: 60px; background-color: rgb(5, 182, 40); height: 2px" />
@@ -318,28 +380,31 @@
 			</div>
 		</section>
 
-		<div class="text-center pt-3" style="background-color: rgba(0, 0, 0, 0.2)">
-			© 2022 Copyright:
-			<a class="text-white" href="https://mdbootstrap.com/">Lorem ipsum</a>
+		<div class="text-center pt-1" style="background-color: rgba(0, 0, 0, 0.2)">
+			© <span class="copyright-year">current year</span> Copyright: Edu-IT
 		</div>
 	</footer>
 	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="bi bi-caret-up-fill"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- jQuery Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+		$(".copyright-year").text(new Date().getFullYear());
+	</script>
+
 </body>
-
-
-<!-- jQuery -->
-<script src="js/jquery-3.6.0.min.js"></script>
-<!-- Carousel -->
-<script src="js/jquery-migrate-3.0.0.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/scriptscarousel.js"></script>
-<script src="js/wow.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.bundle.min.js"></script>
-
-
-
 
 </html>
