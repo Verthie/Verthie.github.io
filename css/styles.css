@@ -86,13 +86,6 @@ header {
 .bgimage {
     height: 400px;
     /*background-color: aqua;*/
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-        url("../images/KrakowWawelnoca.jpg");
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 85%;
     margin: 0 0;
     display: flex;
     flex-direction: column;
@@ -100,28 +93,76 @@ header {
     align-items: center;
 }
 
-#rzeszowimg {
+#mainpage {
     background:
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-        url("../images/rzeszow-miasto.jpg");
+        url("../images/mainpage.jpg");
+    background-position: 0 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    background-position: 0 30%;
+#offerpage {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/offer.jpg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rzeszowimg {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+        url("../images/rzeszow-miasto.jpg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #krakowimg {
     background:
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
         url("../images/krakow-miasto.jpg");
-
-    background-position: 0 35%;
+    background-position: 0 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #lublinimg {
     background:
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
         url("../images/lublin-miasto.jpg");
+    background-position: 0 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-    background-position: 0 20%;
+#testimonalpage {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/experience.jpg");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gallerypage {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/gallery.jpg");
+    background-position: 0 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contactpage {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../images/contact.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blockquote p {
@@ -191,15 +232,15 @@ header {
 }
 
 #img1 {
-    background: url("../images/Types-of-Meetings.png");
-    background-position: 50% 0%;
+    background: url("../images/School.jpg");
+    background-position: 60% 80%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 
 #img2 {
-    background: url("../images/GlobeVector.jpg");
+    background: url("../images/Globe.jpg");
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +249,7 @@ header {
 
 #img3 {
     background: url("../images/excellence.jpg");
-    background-position: 50% 40%;
+    background-position: 50% 60%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -216,19 +257,69 @@ header {
 
 #img4 {
     background: url("../images/accredation.jpg");
-    background-position: 50% 50%;
+    background-position: 30% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 
 #img5 {
-    background: url("../images/europeunion.jpg");
-    background-position: center center;
+    background: url("../images/nations.jpg");
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
+
+#img8 {
+    background: url("../images/internship.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#img9 {
+    background: url("../images/improvement.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#img10 {
+    background: url("../images/training.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#img11 {
+    background: url("../images/schoolfacility.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#img12 {
+    background: url("../images/following.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#img13 {
+    background: url("../images/ideas.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
 
 #list-values {
     margin-top: 1em;
@@ -303,27 +394,17 @@ footer .row {
     }
 
     #img1 {
-        background-position: 50% 30%;
-        background-size: 600px;
-    }
-
-    #img2 {
-        background-position: 45% 15%;
-        background-size: 300px;
+        background-size: 270px;
+        background-position: 80% 50%;
     }
 
     #img3 {
-        background-position: 45% 60%;
-    }
-
-    #img4 {
-        background-position: 45% 55%;
         background-size: 300px;
     }
 
     #img5 {
-        background-position: 45% 60%;
-        background-size: 320px;
+        background-position: 45% 50%;
+        background-size: 220px;
     }
 
 }
@@ -383,6 +464,9 @@ footer .row {
         padding-left: 1em;
     }
 
+    .bgimage {
+        background-position: 65% 85%;
+    }
 
 }
 
@@ -391,10 +475,6 @@ footer .row {
     #list-values {
         font-size: 1.3em;
         margin-top: 0em;
-    }
-
-    .primage {
-        height: 9em;
     }
 
     .aboutus {
@@ -505,8 +585,12 @@ footer .row {
         margin: 0 6em;
     }
 
-    #img1 {
-        background-position: 50% 20%;
+    .primage {
+        height: 9em;
+    }
+
+    #img4 {
+        background-position: 50% 30%;
     }
 
     #img6 {
