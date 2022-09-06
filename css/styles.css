@@ -448,6 +448,10 @@ footer .row {
         top: -75px;
     }
 
+    #lublinimg #img7 {
+        left: 216px;
+    }
+
     .city ul {
         margin-right: 0.5rem;
     }
@@ -500,6 +504,15 @@ footer .row {
         width: 50%;
         left: 230px;
         top: -26px;
+    }
+
+    #lublinimg #img6 {
+        top: -9px;
+    }
+
+    #lublinimg #img7 {
+        left: 207px;
+        top: -9px;
     }
 
     .city {
@@ -564,6 +577,15 @@ footer .row {
         top: 5px;
     }
 
+    #lublinimg #img6 {
+        top: 9px;
+    }
+
+    #lublinimg #img7 {
+        left: 180px;
+        top: 9px;
+    }
+
 }
 
 @media screen and (max-width: 384px) {
@@ -605,6 +627,15 @@ footer .row {
         top: 5px;
     }
 
+    #lublinimg #img6 {
+        top: 5px;
+    }
+
+    #lublinimg #img7 {
+        left: 145px;
+        top: 5px;
+    }
+
 }
 
 @media screen and (max-width: 300px) {
@@ -619,6 +650,16 @@ footer .row {
         width: 25%;
         left: 63px;
         top: 70px;
+    }
+
+    #lublinimg #img6 {
+        left: 50px;
+        top: -74px;
+    }
+
+    #lublinimg #img7 {
+        left: 50px;
+        top: 80px;
     }
 
 }
