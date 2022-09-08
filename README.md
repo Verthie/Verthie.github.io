@@ -1,2 +1,2 @@
-# Verthie.github.io
-A project of a static Website
+# A project of a static Website
+
