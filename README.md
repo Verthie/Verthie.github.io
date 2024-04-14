@@ -1,2 +1,3 @@
-# A project of a static Website
-Text used in website was provided by the Edu-IT company
+# Projekt konceptu strony statycznej
+Tekst wykorzystany na stronie został dostarczony przez firmę Edu-IT  
+Wykonane z pomocą bibliotek "animate" oraz "bootstrap"
